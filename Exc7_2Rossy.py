@@ -17,7 +17,11 @@ total = 0
 for line in fh:
     if not line.startswith("X-DSPAM-Confidence:") :continue
     pos = line.find (':')
-    num = float(line[pos+1:])
+    try:
+        num = float(line[pos+1:])
+    except:
+        print 'invalid value'
+        exit()   
     total = total+num
     count = count+1
 avg = total/count
