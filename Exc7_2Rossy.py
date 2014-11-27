@@ -10,6 +10,7 @@
 #compute the total of the spam confidence values from these lines. When you reach
 #the end of the file, print out the average spam confidence.
 
+
 fname = raw_input("Enter the file name you want to open: ")
 fh = open(fname)
 count = 0
@@ -20,7 +21,7 @@ for line in fh:
     try:
         num = float(line[pos+1:])
     except:
-        print 'invalid value'
+        print 'This is not a numeric value'
         exit()   
     total = total+num
     count = count+1
