@@ -27,7 +27,6 @@ for line in fh:
     count = count+1
 avg = total/count
 print "Average spam confidence:", avg
-print "Adios"
-print "bye"
+
 
 
