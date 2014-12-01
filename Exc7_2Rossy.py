@@ -28,6 +28,6 @@ for line in fh:
 avg = total/count
 print "Average spam confidence:", avg
 print "Esto es nuevo"
-print "3 commit"
+print "3 comt"
 
 
