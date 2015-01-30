@@ -1,0 +1,4 @@
+Diferencia entre inner join and exist
+Diferencia entre usar un left outter join and minus
+Procedimiento almacenado cuales son los requisitos para usar variables de entrada y salida
+cuales son las consideraciones cuando se realiza un update a traves de un join
